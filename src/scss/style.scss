@@ -1,0 +1,204 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+$brand: #FA4B35;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(88, 88, 88);
+}
+
+
+//navbarsticky
+.sticky {
+    position: fixed !important;
+    padding: 10px;
+    width: 100%;
+    z-index: 12000;
+
+}
+
+//Header starts
+.header-img {
+    width: 223px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #FA4B35;
+}
+
+.narbar {
+    transition: all 0.9s;
+}
+
+//Canvas
+.canvas-btn {
+    background-color: #FA4B35 !important;
+}
+
+.off-heading {
+    background: #FA4B35;
+}
+
+.off-main {
+    font-size: 14px;
+
+    li {
+        list-style: none;
+        padding: 5px;
+        border-bottom: 2px solid black;
+
+        &:hover {
+            background-color: #FA4B35;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+
+
+        }
+    }
+}
+
+//Header Ends
+
+//Section 1
+.banner-text1 {
+    bottom: 20px;
+    margin-left: 10px;
+
+    &:hover {
+        color: #FA4B35 !important;
+    }
+}
+
+.banner-text2 {
+    bottom: 20px;
+    margin-left: 10px;
+
+    &:hover {
+        color: #FA4B35 !important;
+    }
+}
+
+.banner-text {
+    bottom: 20px;
+    margin-left: 10px;
+
+    &:hover {
+        color: #FA4B35 !important;
+    }
+}
+
+//ends
+
+//business card/ Api fetch
+.card-img {
+    width: 240px;
+    object-fit: cover;
+}
+
+.card-title,
+.card-text {
+    &:hover {
+        color: #FA4B35;
+    }
+}
+
+span {
+    color: $brand;
+}
+
+//Popular.js
+.popular {
+    .popular-text {
+        padding: 10px;
+        &:hover{
+            color: #FA4B35;
+        }
+    }
+}
+h6, h5, h4, h3, h2, h1, p, a{
+    &:hover{
+        color: #FA4B35;
+    }
+}
+
+
+
+
+//Last WEEKS
+.last-week {
+    span {
+        background: $brand;
+
+    }
+}
+
+
+
+
+
+
+//popular2
+.pop2 {
+    span {
+        background-color: $brand;
+    }
+}
+
+.cat2 {
+    ul {
+        li {
+            border-bottom: 2px solid black;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+                line-height: 45px;
+
+            }
+        }
+    }
+}
+//totop
+.top{
+    .top-btn {
+      position: fixed;
+      bottom: 100px;
+      right: 10px;
+      padding: 10px;
+      transition: 0.9s;
+      display: none;
+      z-index: 100000;
+      }
+      a{
+        color: $brand;
+        &:hover{
+            color: $brand;
+        }
+      }
+  }
+
+
+//Footer
+.footer-img {
+    width: 190px;
+}
+
+.btn {
+    background-color: #FA4B35 !important;
+}

@@ -1,0 +1,15 @@
+@import "breakpoints";
+
+
+@include xs{
+    //canvas
+    .canvas-btn{
+        display: none;
+    }
+}
+@include sm{
+    //canvas
+    .canvas-btn{
+        display: none;
+    }
+}
