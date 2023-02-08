@@ -15,19 +15,19 @@ function Home() {
   return (
     <>
       <Section1/>
-      {/* <TopHeadlines/>
+      <TopHeadlines/>
       <Accordions/>
-      <ApiFetch title="ar"/> */}
+      <ApiFetch title="ar"/>
       <Adver/>
       <Popular/>
       <Mostviews/>
-      {/* <ApiFetch title="au"/> */}
+      <ApiFetch title="au"/>
       <Adver/>
-      {/* <ApiFetch title="jp"/> */}
+      <ApiFetch title="jp"/>
       <LastWeek/>
-      {/* <ApiFetch title="id"/> */}
+      <ApiFetch title="id"/>
       <Adver/>
-      {/* <ApiFetch title="za"/> */}
+      <ApiFetch title="za"/>
       <Popular2/>
      
       <ToTop/>
