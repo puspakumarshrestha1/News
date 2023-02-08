@@ -1,10 +1,10 @@
 @media (min-width: 0) and (max-width: 480px) {
   .canvas-btn {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width: 480px) and (max-width: 720px) {
   .canvas-btn {
-    display: none;
+    display: none !important;
   }
 }/*# sourceMappingURL=responsive.css.map */
