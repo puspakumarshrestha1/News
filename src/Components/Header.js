@@ -98,6 +98,14 @@ function Header() {
                 </Nav>
             </Container>
         </Navbar>
+
+  <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='about' element={<Aboutus />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="/details/:id" element={<SingData />} />
+        <Route path="/detail/:id" element={<LastsData />} />
+      </Routes>
         </>
     );
 }
